@@ -1,6 +1,6 @@
 Title         : Projeto BEPE
 Title Note    : Draft, &date; (version 1.0)
-Heading Base  : Processo Associado 2014/26262-4
+Subtitle      : Processo Associado 2014/26262-4
 Author        : Diogo Melo
 email         : diogro@usp.br
 Author        : __Orientador:__ Gabriel Marroig
@@ -10,16 +10,19 @@ Bib Style     : abbrvnat
 Cite Style    : natural
 Heading depth :
 
-
 [TITLE]
 
 [TOC]
 
-# Resumo do projeto
+# Resumo do Projeto
 
-# Resumo do projeto BEPE
+Genética quantitativa trata da variação e evolução de caracteres contínuos em populações biológicas. A relação entre caracteres é fundamental para compreender a diversificação fenotípica e a interação das populações com o ambiente. Essa estrutura de relações entre vários caracteres quantitativos é codificada pela sua estrutura de covariação genética aditiva. Essas relações genéticas são em grande parte resultado das interações pleiotrópicas e epistáticas entre genes atuando sobre vários caracteres simultaneamente. Existe uma carência de estudos empiricos sobre pleiotropia, apesar do tema contar com um forte arcabouço teórico. Neste projeto, pretendemos investigar empiricamente a evolução de relações pleiotrópicas por meio de sequenciamento e identificação de QTLs atuando sobre taxa de crescimento ao longo do desenvolvimento, utilizando linhagens experimentais de camundongos selecionadas para alteração de curvas de crescimento. Pretendemos também usar as informações derivadas dessa análise experimental na parametrização de modelos baseados em indivíduos para a simulação da evolução de traços quantitativos.
+
+# Resumo do Projeto BEPE
+
 
 # Introdução
+
 
 # Cronograma 
 
@@ -27,10 +30,6 @@ O projeto tem duração de seis meses...
 
 
 
-Enjoy!
-
 # Referencias
 
 [BIB]
-
-[reference manual]: http://research.microsoft.com/en-us/um/people/daan/madoko/doc/reference.html  "Madoko refrence manual"
