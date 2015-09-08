@@ -1,19 +1,28 @@
 Title         : Projeto BEPE
 Heading Base  : Processo Associado 2014/26262-4
 Author        : Diogo Melo
-Bib           :      
+Bib           : bibliography
+Bib Style     : abbrvnat
+Cite Style    : natural
+
 
 [TITLE]
 
 # Resumo do projeto
 
 Madoko is a fast markdown processor for writing professional articles
-with a focus on simplicity and plain text readability.
+with a focus on simplicity and plain text readability [@Melo2015].
 
 * Read the [reference manual].
 * Explore the upper-right toolbox menu to discover how Markdown works. 
 * `Alt-Q` reformats the current paragraph.
 
+[TOC]
+
 Enjoy!
+
+# Referencias
+
+[BIB]
 
 [reference manual]: http://research.microsoft.com/en-us/um/people/daan/madoko/doc/reference.html  "Madoko refrence manual"
