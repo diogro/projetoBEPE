@@ -1,23 +1,31 @@
 Title         : Projeto BEPE
+Title Note    : Draft, &date; (version 1.0)
 Heading Base  : Processo Associado 2014/26262-4
 Author        : Diogo Melo
+email         : diogro@usp.br
+Author        : __Orientador:__ Gabriel Marroig
+email         : gmarroig@usp.br
 Bib           : bibliography
 Bib Style     : abbrvnat
 Cite Style    : natural
+Heading depth :
 
 
 [TITLE]
 
+[TOC]
+
 # Resumo do projeto
 
-Madoko is a fast markdown processor for writing professional articles
-with a focus on simplicity and plain text readability [@Melo2015].
+# Resumo do projeto BEPE
 
-* Read the [reference manual].
-* Explore the upper-right toolbox menu to discover how Markdown works. 
-* `Alt-Q` reformats the current paragraph.
+# Introdução
 
-[TOC]
+# Cronograma 
+
+O projeto tem duração de seis meses...
+
+
 
 Enjoy!
 
