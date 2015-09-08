@@ -1,33 +1,57 @@
-Title         : Projeto BEPE
+Title         : Estimativas Diretas de Parâmetros Evolutivos Via Análise de QTL
 Title Note    : Draft, &date; (version 1.0)
-Subtitle      : Processo Associado 2014/26262-4
+Subtitle      : Projeto de Pesquisa - Bolsa de Estágio no Exterior (BEPE)-FAPESP Associado ao processo 2014/26262-4
 Author        : Diogo Melo
 email         : diogro@usp.br
-Author        : __Orientador:__ Gabriel Marroig
-email         : gmarroig@usp.br
 Bib           : bibliography
 Bib Style     : abbrvnat
 Cite Style    : natural
-Heading depth :
+Heading depth : 
+Logo          : False
+
+
 
 [TITLE]
 
-[TOC]
 
-# Resumo do Projeto
+# Participantes
+
+  * _Aluno:_ Diogo Amaral Rebouças __Melo__
+
+  * _Orientador:_ Gabriel Henrique __Marroig__ Zambonato
+
+  * _Supervisor:_ Jason __Wolf__
+
+  * _Universidade:_ University of Bath
+
+# Resumo do Projeto de Doutorado
 
 Genética quantitativa trata da variação e evolução de caracteres contínuos em populações biológicas. A relação entre caracteres é fundamental para compreender a diversificação fenotípica e a interação das populações com o ambiente. Essa estrutura de relações entre vários caracteres quantitativos é codificada pela sua estrutura de covariação genética aditiva. Essas relações genéticas são em grande parte resultado das interações pleiotrópicas e epistáticas entre genes atuando sobre vários caracteres simultaneamente. Existe uma carência de estudos empiricos sobre pleiotropia, apesar do tema contar com um forte arcabouço teórico. Neste projeto, pretendemos investigar empiricamente a evolução de relações pleiotrópicas por meio de sequenciamento e identificação de QTLs atuando sobre taxa de crescimento ao longo do desenvolvimento, utilizando linhagens experimentais de camundongos selecionadas para alteração de curvas de crescimento. Pretendemos também usar as informações derivadas dessa análise experimental na parametrização de modelos baseados em indivíduos para a simulação da evolução de traços quantitativos.
 
-# Resumo do Projeto BEPE
+
+# Resumo do Projeto de Estágio
+
+Neste estágio pretendemos usar dados de cruzamentos entre linhas altamente divergentes de camundongos para estudar a relação entre efeitos genéticos e a variação genética encontrada na população. 
+
 
 
 # Introdução
 
+Genética quantitativa
+
+Mapa Genótipo-fenótipo
+
+Variação
+
+QTL
+
+# Objetivos do estágio
+
+Juntar QTL e Gen Quant pra estudar genótipo fenótipo
 
 # Cronograma 
 
 O projeto tem duração de seis meses...
-
 
 
 # Referencias
