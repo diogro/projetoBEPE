@@ -49,12 +49,13 @@ Neste projeto pretendemos utilizar dados já coletados em camundongos provenient
 
 Todos os conjuntos fenotípicos tem dimensionalidade parecida, ou seja, são compostos por um número parecido de caracteres, e são divergentes entre as linhagens parentais. Alem disso, cada conjunto fenotípico se relaciona de forma distinta com a seleção imposta, trazendo informação sobre aspectos diferentes da resposta à seleção. Deste modo, esses conjuntos de caracteres podem usados de forma complementar para entender padrões de resposta à seleção multivariada, tanto no nível fenotípico quanto genético. Para isso, vamos mapear os QTLs relacionados a cada um dos caracteres em cada conjunto de fenótipos, obtendo vetores de efeitos aditivos e de dominância para cada marcador, e usar essas estimativas de efeitos para elucidar como a seleção para tamanho alterou a arquitetura genética nas linhagens selecionadas, com foco principalmente em marcadores pleiotrópicos, com efeitos em mais de um caráter.
 
+A partir desses vetores de efeitos pleitrópicos, aditivos e de dominância, podemos entender como a seleção para tamanho causou mudanças na relação genética entre caracteres e investigar quais as consequencias dessas mudanças para o potencial evolutivo dessas linhagens. Além disso, podemos estudar mudanças no padrão de covariação genético dessas populações e relaciona-las com essas mudanças nos efeitos pleitrópicos devido à seleção. 
 
+Para atingir esses objetivos, pretendo me familirizar com técnicas de mapeamento de QTL e toda a teoria relevante de genética quantitativa, que relaciona os efeitos dos alelos com a variação e a resposta à seleção. Como os dados a serem utilizados já estão coletados, acreditamos que esse estágio será importante para fornecer a mim e ao laboratório de evolução de mamíferos um ferramental teórico e prático que permite responder perguntas de ponta em biologia evolutiva e genética, aprofundando uma linha de pesquisa na interface entre genética e evolução de grande relevâcia e ainda ausente no Brasil. Neste sentido, o supervisor Jason Wolf possui extensa experiencia em mapeamento de QTLs e genética quantitativa, tendo autorado dezenas de manuscritos nestes temas, tanto teóricos quanto práticos, em revistas de alto impacto. Além disso, o estágio se insere de forma natural no meu projeto de doutorado, e permite facilitar o desenvolvimento das ferramentas necessárias para o mesmo.
 
 # Cronograma 
 
-O projeto tem duração de seis meses...
-
+O projeto tem duração de seis meses, sendo que os primeiros três meses serão dedicados a estudar a teoria relevante, os métodos estatísticos e computacionais utilizados no mapemamento e eventualmente criar implementações customizadas ao problema de lidar com os vetores de efeitos pleiotrópicos. Após esse periodo, poderei me dedicar a analisar os resultados e iniciar a produção de ao menos um manuscrito. 
 
 # Referencias
 
