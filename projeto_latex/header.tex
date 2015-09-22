@@ -1,0 +1,62 @@
+\usepackage[english]{babel} % suporte para l�nguas
+\usepackage[utf8] {inputenc} % codifica��o
+\usepackage{subfig, epsfig}
+\captionsetup[subfigure]{style=default,
+  margin=0pt, parskip=0pt, hangindent=0pt, indention=0pt,
+  singlelinecheck=true, labelformat=parens, labelsep=space}
+\usepackage{ae}
+\usepackage{aecompl}
+\usepackage{booktabs}
+\usepackage[T1] {fontenc}
+\usepackage{footnote}
+% Notas criadas nas tabelas ficam no fim das tabelas
+\makesavenoteenv{tabular}
+\usepackage{fancyhdr}
+% Usar os estilos do pacote fancyhdr
+\fancypagestyle{plain}{
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\headheight 13.6pt}
+\usepackage{tabularx}
+\usepackage{graphicx,wrapfig} % para incluir figuras
+\usepackage[all]{xy} % para incluir diagramas
+\usepackage{amsfonts, amssymb, amsthm, amsmath, amscd, textcomp} % pacote AMS
+\usepackage{color, float, bbm, multicol, rotating}
+\usepackage{verbatim, listings, booktabs}
+\usepackage{caption} % Customizar as legendas de figuras e tabelas
+\usepackage{array} % Elementos extras para formata��o de tabelas
+\usepackage{lineno} % números nas linhas
+\usepackage {tocvsec2} % controlar profundidade de table of contents
+\setcounter {secnumdepth}{0}
+\setcounter {tocdepth}{2}
+%\widowpenalty10000
+%\clubpenalty10000
+\usepackage{mathpazo} % fonte palatino
+
+% Adicionar bibliografia, �ndice e conte�do na Tabela de conte�do
+% Não inclui lista de tabelas e figuras no índice
+\usepackage[nottoc,notlof,notlot, notindex]{tocbibind}
+\usepackage{icomma} % Posicionar inteligentemente a v�rgula como separador decimal
+\usepackage[tight]{units} % Formatar as unidades com as dist�ncias corretas
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{lastpage} % Conta o n�mero de p�ginas
+\usepackage[hmargin = 2.5 cm,vmargin = 2.5 cm]{geometry}
+\usepackage{pdflscape} % ambiente landscape
+%\geometry{bindingoffset=10pt}
+\usepackage {tabularx}
+\usepackage[round]{natbib}
+\usepackage{chapterbib}
+% --- defini��es gerais ---
+%\newcommand{\barra}{\backslash}
+%\newcommand{\To}{\longrightarrow}
+%\newcommand{\abs}[1]{\left\vert#1\right\vert}
+%\newcommand{\set}[1]{\left\{#1\right\}}
+%\newcommand{\seq}[1]{\left<#1\right>}
+%\newcommand{\norma}[1]{\left\Vert#1\right\Vert}
+\newcommand{\hr}{\par\noindent\hrulefill\par}
+% --- ---
+\usepackage{longtable}
+

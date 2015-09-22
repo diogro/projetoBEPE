@@ -1,0 +1,199 @@
+\documentclass[twoside,a4paper,12pt]{article}
+
+\input {header.tex}
+
+% Links dinâmicos
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, filecolor=black, pagecolor=black, urlcolor=black,
+        pdfauthor={Diogo Melo},
+        pdftitle={The Evolution of Pleiotropy},
+        pdfsubject={Biologia Evolutiva},
+        pdfkeywords={Evolução morfológica, Pleiotropia, QTL},
+        pdfproducer={Latex},
+        pdfcreator={pdflatex}}
+% Pontuação e unidades
+\usepackage{icomma}
+
+% Capa
+
+% Se quiser uma figura de fundo na capa ative o pacote wallpaper
+% e descomente a linha abaixo.
+% \ThisCenterWallPaper{0.8}{nomedafigura}
+
+
+%\renewcommand*\familydefault{\sfdefault}
+
+%\usepackage{pslatex}
+% Início do texto
+\begin{document}
+\pagestyle{empty}
+\begin{titlepage}
+
+\begin{center}
+\large{Projeto de Pesquisa-Bolsa de Estágio no Exterior (BEPE)-FAPESP}\\
+
+%\topskip0pt
+\vspace*{\fill}
+
+\LARGE{Estimativas Diretas de Parâmetros Evolutivos Via Análise de QTL}\\
+
+\vspace{20pt}
+\small{Associado ao processo de N$^{o}$ 2014/26262-4}
+\vspace{2cm}
+
+
+\vspace*{\fill}
+
+\small{\emph{Aluno:} Diogo Amaral R. \textsc{Melo}\\
+\emph{Orientador:} Gabriel Henrique \textsc{Marroig}} Zambonato\\
+\emph{Supervisor:} Jason \textsc{Wolf}\\
+\vspace{10pt}
+\large{Laboratório de Evolução de Mamíferos}
+\\
+\vspace{10pt}
+\large{\today}
+
+\end{center}
+
+\thispagestyle{empty}
+\end{titlepage}
+
+
+
+\noindent
+\large{\emph{Title:} Direct Estimates of Evolutionary Parameters via QTL Analysis}\\
+\begin{normalsize}
+\noindent
+\emph{Student:} Diogo Amaral R. \textsc{Melo}\\
+\emph{Advisor:} Gabriel Henrique \textsc{Marroig} Zambonato\\
+\emph{Supervisor:} Jason \textsc{Wolf}\\
+\emph{To be developed at:} University of Bath (Bath), UK\\
+\end{normalsize}
+
+\begin{abstract}
+
+Como a evolução morfológica e a resposta à seleção dependem da
+variação disponível em uma dada população, como essa estrutura de
+covariação evolui é uma pergunta fundamental em biologia evolutiva.
+A estrutura de covariação genética é determinada pelo conjunto
+de efeitos genéticos, incluindo principalmente genes pleiotrópicos
+e desequilíbrio de ligação. Neste estágio pretendemos utilizar
+dados de cruzamentos entre linhagens de camundongos com tamanhos
+altamente divergentes para estudar a relação entre efeitos genéticos
+pleiotrópicos e a variação genética encontrada nessas linhagens.
+Utilizando técnicas de mapeamento de QTL e medidas morfológicas,
+podemos usar esse sistema experimental poderoso para compreender a
+evolução da covariação e sua base genética.
+
+
+\textbf{Keywords}: Morphological evolution, Pleiotropy, Micro-evolution, G Matrix, Quantitative genetics
+\end{abstract}
+
+\tableofcontents
+
+\thispagestyle{empty}
+\newpage
+
+\pagestyle{plain}
+\onehalfspacing
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\section{Introduction}
+
+Genética quantitativa
+
+Mapa Genótipo-fenótipo
+
+Variação
+
+QTL
+
+\section{Objectives of the Internship}
+
+In this project we intend to use available data on the cross
+between two inbred mice strains LG/J ({\it Large\/}) and SM/J
+({\it Small\/}) to study how pleiotropic effects on multivariate
+phenotypes evolve under selection. Parental individuals were obtained
+from mice strains independently selected for increase and decrease
+in size~\citep{MacArthur1944, Goodale1938}. We have access to data
+phenotypic and genotypic data from around 1500 individuals from the
+$F_3$ generation, distributed among 195 families. For all these
+individuals, we have measurements on 3 sets of phenotypes: weekly weights
+for the first eight weeks after birth, morphological landmarks in the
+jaw and several internal organ weight at death.
+
+All sets of multivariate phenotypes have similar dimensionality, that
+is, they are composed by a similar number of traits. Also, all phenotype
+sets are divergent between the parental strains, and so are informative
+on how directional selection affected their genetic structure. Given
+this, we intend to use these complementary phenotypes to understand
+how genetic effects evolve, focusing especially how pleiotropy changes
+under selection and how this affects the patterns of standing genetic
+covariation. In order to achieve this goal, we intend to map the QTLs
+associated with each phenotypic trait, and to estimate vectors of
+pleiotropic additive and dominance effects for each marker. Then, we will
+use these effects vectors to elucidate how selection on size altered
+the genetic architecture in the selected strains, with special focus on
+changes is pleiotropy.
+
+Using these additive and dominance effects vectors, we can also
+investigate how genetic correlation between traits changed under
+selection on size, and how these changes altered the evolutionary
+potential of the selected strains. Also, we can use quantitative
+genetics to directly estimate how different genetic effects (like
+additive and dominance) contribute to the genetic covariance matrix, and
+how selection changed this standing genetic covariation.
+
+In order to complete this project, I intend to learn QTL mapping
+techniques, along with the relevant quantitative genetics theory,
+which related the effects of the alleles with standing variation
+and response to selection. As the data we plan on using has already
+been collected, we believe this internship will be crucial in providing
+me and the Mammal Evolution Laboratory in Brazil the theoretical and
+computational tools to answer new and existing questions in evolutionary
+biology and genetics, furthering a leading research program at the
+interface between genetics and evolution that is at this time absent in
+Brazil. In this sense, the supervisor Jason Wolf is an ideal partner,
+having vast experience in QTL mapping and quantitative genetics. He is
+also lead author of tens of articles in these topics, both theoretical
+and experimental, in high impact journals. Furthermore, this internship
+fits naturally with the main theme of my doctorate, and allows developing
+the necessary tools for its completion.
+
+\section{Project Schedule}
+
+The project will be developed in the first semester of 2016, during a 6
+month period (Table~\ref {tab:crono}). During the first three months I
+will dedicate myself to learning marker mapping methods and the relevant
+quantitative genetics theory. During this period I also plan to develop
+any software that proves necessary for the analysis of multivariate
+pleiotropic effects. In the latter months, I intend to finish
+analyzing the available data and to begin work on at least one manuscript.
+
+\begin{table}[H]
+    \hr
+    \caption {Project work schedule.}
+    \hr
+    \begin{center}
+    \begin{tabular}{lc*{4}{cc}}
+        \toprule
+    Months & $1^{th}$ & $2^{th}$ & $3^{th}$ & $4^{th}$ & $5^{th}$ & $6^{th}$ \\
+              \midrule
+  Literature review &$\blacksquare$&$\blacksquare$&$\blacksquare$&$\blacksquare$& $\blacksquare$&$\blacksquare$\\
+  Implementation &$\blacksquare$&$\blacksquare$&$\blacksquare$&-&-&-\\
+  Data analysis &-&-&$\blacksquare$&$\blacksquare$&$\blacksquare$&$\blacksquare$\\
+  Writing  &-&-&-&-&$\blacksquare$&$\blacksquare$\\
+  \bottomrule
+
+  \end{tabular}
+  \end{center}
+  \label{tab:crono}
+\end{table}
+
+\bibliographystyle{apalike}
+\singlespacing
+\begin{multicols} {2}
+\scriptsize{\bibliography{bibliography}}
+\end{multicols}
+\end{document}
