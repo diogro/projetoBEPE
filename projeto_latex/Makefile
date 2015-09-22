@@ -7,7 +7,7 @@ all :
 	pdflatex $(FILE)
 	pdflatex $(FILE)
 	mv $(FILE).pdf projeto_bepe.pdf
-	rm *.aux *.bbl *.log *.blg *.out
+	rm *.aux *.bbl *.log *.blg *.out *.toc
 clean:
-	rm *.aux *.bbl *.log *.blg *.out
+	rm *.aux *.bbl *.log *.blg *.out *.toc
 
